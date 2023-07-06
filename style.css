@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+/* menu item edit */
 .Website-menu{
      background-color: rgb(54, 51, 51);
      display: flex;
@@ -9,9 +10,7 @@
      justify-content: space-around;
      color: white;
      list-style: none;
-
-
-    }
+ }
 .logo-size{
     width: 100px;
 }
@@ -23,3 +22,36 @@
     margin: 10px;
     font-size: 24px;
 }
+/* main item edit */
+.design{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+    background-color: rgb(26, 24, 24);
+}
+.leka{
+    color: white;
+    
+}
+.leka1{
+    font-size: 45px;
+    margin: 7px;
+    
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border: 0px;
+    border-radius: 2px;
+    margin: 7px;
+
+}
+.small{
+    margin: 7px;
+    font-size: 17px;
+}
+
+
+
