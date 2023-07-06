@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Website-menu{
+     background-color: rgb(54, 51, 51);
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     color: white;
+     list-style: none;
+
+
+    }
+.logo-size{
+    width: 100px;
+}
+.list-item{
+    padding: 20px;
+    display: flex;
+}
+.list{
+    margin: 10px;
+    font-size: 24px;
+}
