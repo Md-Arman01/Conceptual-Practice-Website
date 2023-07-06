@@ -11,6 +11,14 @@
      color: white;
      list-style: none;
  }
+.list:hover{
+    color: red;
+    cursor: pointer;
+}
+.logo-size:hover{
+    cursor: pointer;
+    
+}
 .logo-size{
     width: 100px;
 }
@@ -28,7 +36,7 @@
     justify-content: space-around;
     height: 500px;
     align-items: center;
-    background-color: rgb(26, 24, 24);
+    background-image: url('images/background.png'),linear-gradient(45deg,#000000,#201e1e);
 }
 .leka{
     color: white;
@@ -38,6 +46,10 @@
     font-size: 45px;
     margin: 7px;
     
+}
+.btn:hover{
+    cursor: pointer;
+    color: blue;
 }
 .btn{
     background-color: red;
@@ -52,6 +64,26 @@
     margin: 7px;
     font-size: 17px;
 }
+ /* main item edit-01  */
 
-
-
+.main01{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+    padding: 20px;
+}
+.About{
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+}
+.leka01{
+    font-size: 30px;
+    margin: 7px;
+}
+.leka02{
+    margin: 7px;
+    font-size: 17px;
+}
