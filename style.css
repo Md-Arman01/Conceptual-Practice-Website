@@ -14,9 +14,11 @@
 .list:hover{
     color: red;
     cursor: pointer;
+    box-shadow: 0 0 5px red,0 0 25px red,0 0 50px red,0 0 100px red,0 0 200px red;
 }
 .logo-size:hover{
     cursor: pointer;
+    box-shadow: 0 0 5px red,0 0 25px red,0 0 50px red,0 0 100px red,0 0 200px red;
     
 }
 .logo-size{
@@ -49,7 +51,8 @@
 }
 .btn:hover{
     cursor: pointer;
-    color: blue;
+    color: white;
+    box-shadow: 0 0 5px red,0 0 25px red,0 0 50px red,0 0 100px red,0 0 200px red;
 }
 .btn{
     background-color: red;
@@ -159,6 +162,7 @@
 .list-class:hover{
     color: red;
     cursor: pointer;
+    box-shadow: 0 0 5px red,0 0 25px red,0 0 50px red,0 0 100px red,0 0 200px red;
 }
 .lasthr{
     background-color: #181717;
